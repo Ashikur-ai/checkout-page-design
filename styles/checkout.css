@@ -68,3 +68,102 @@ body {
     line-height: normal;
     padding: 17px 45px;
 }
+
+
+.product {
+    display: flex;
+    gap: 20px;
+}
+
+
+.image > img{
+    border-radius: 20px;
+    height: 60%;
+}
+
+.product-title {
+    color: #4E5150;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.product-price {
+    color: #F2994A;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.item-img{
+    border-radius: 12px;
+    background:#F2F2F2;
+    padding: 20px;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ship {
+    color: var(--gray-1, #333);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ship-value {
+    color: #333;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+@media screen and (max-width:576px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    #email, #phone, #name, #address, #city, #postal {
+        border-radius: 12px;
+        border: 1px solid #828282;
+        width: 90%;
+        padding: 18px 0px 18px 32px;
+        margin-bottom: 20px;
+    }
+
+    .last-row {
+        display: grid;
+    }
+
+    .country {
+        border-radius: 12px;
+        border: 1px solid #828282;
+        padding: 18px 0px 18px 32px;
+        margin-bottom: 20px;
+    }
+    
+    .postal {
+        border-radius: 12px;
+        padding: 18px 0px 18px 32px;
+        margin-bottom: 20px;
+    }
+}
