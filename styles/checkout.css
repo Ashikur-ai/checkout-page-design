@@ -1,0 +1,70 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item-title {
+    color: #4E5150;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.form-title {
+    color: #333;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.label {
+    color: #4F4F4F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#email, #phone, #name, #address, #city, #postal {
+    border-radius: 12px;
+    border: 1px solid #828282;
+    width: 100%;
+    padding: 18px 0px 18px 32px;
+    margin-bottom: 20px;
+}
+
+.country {
+    border-radius: 12px;
+    border: 1px solid #828282;
+    width: 100%;
+    padding: 18px 0px 18px 32px;
+    margin-bottom: 20px;
+}
+
+.postal {
+    border-radius: 12px;
+    width: 100%;
+    padding: 18px 0px 18px 32px;
+    margin-bottom: 20px;
+}
+
+.last-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.btn {
+    float: right;
+    border-radius: 12px;
+    background: #F2994A;
+    border: none;
+
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 17px 45px;
+}
